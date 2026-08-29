@@ -16,13 +16,13 @@ body{
 }
 
 h1{
-  font-size: 50px;
+  font-size: 60px;
   margin-bottom: 25px;
 
 }
 
 .Counter{
-  font-size:  40px;
+  font-size:  60px;
   margin-bottom: 40px;
 }
 
@@ -36,4 +36,21 @@ button{
   border-radius: 8px;
   cursor: pointer;
   color: white;
+}
+
+.Buttons{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.Increase{
+  background-color: #4CAF50;
+}
+.Decrease{
+  background-color: #f44336;
+}
+
+.button:hover{
+  opacity: 0.8;
 }
